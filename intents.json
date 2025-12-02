@@ -1,0 +1,129 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+			"responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+			"responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+		},
+        {
+			"tag": "plan_itinerary",
+			"patterns": [
+				"Plan a 3 day trip to Paris",
+				"Give me a 2 day itinerary for Goa",
+                "I need a 5 day travel plan for Tokyo",
+                "Suggest a 4-day itinerary for London",
+                "Show me a 7 day plan for Italy",
+				"itinerary for kazakhstan for 5 days",
+                "create a 3 day itinerary for mizoram"
+			],
+			"responses": [
+				"Here is a suggested travel plan for you:"
+			]
+		},
+		{
+			"tag": "travel_places_to_visit",
+			"patterns": ["What are the best places to visit in Paris?", "Suggest some tourist spots in New York", "What to see in Tokyo?", "Show me famous places in London", "Places to visit in Rome", "Find beaches in Goa", "Can you show me churches in Rome?", "List museums in London", "Are there any parks in New York?", "Find restaurants in Paris"],
+			"responses": ["Let me look that up for you:", "Here are some places I found:"]
+		},
+		{
+			"tag": "stocks",
+			"patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio", "Give me some stock suggestions", "Recommend stocks"],
+			"responses": ["Here are a few stock picks for you:"]
+		},
+		{
+			"tag": "weather",
+			"patterns": ["What's the weather?", "Tell me the weather in London", "How's the weather today?", "What's the weather like in Mumbai?", "Weather update"],
+			"responses": ["Let me check the weather for you..."]
+		},
+		{
+			"tag": "news",
+			"patterns": ["What's the latest news?", "Give me today's headlines", "Any news updates?", "Tell me some news", "Show me news"],
+			"responses": ["Here are the top headlines..."]
+		},
+		{
+			"tag": "calculator",
+			"patterns": ["Calculate 5 + 7", "What is 12 * 8?", "Solve 100 / 5", "Add 45 and 67", "Subtract 90 - 45", "Multiply 12 and 6", "Divide 50 by 2"],
+			"responses": ["Here’s the result:"]
+		},
+		{
+			"tag": "jokes",
+			"patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+			"responses": ["Here’s a joke for you:"]
+		},
+        {
+			"tag": "find_hotels",
+			"patterns": [
+				"Where can I stay in Goa?",
+				"Find hotels in Paris",
+                "homestays in srinagar",
+				"Recommend some stay options in London",
+				"Are there any good hotels in Tokyo?"
+			],
+			"responses": [
+				"Here are some accommodation options I found:"
+			]
+		},
+        {
+			"tag": "find_flights",
+			"patterns": [
+				"Find flights to Paris from New York",
+                "delhi to guwahati flights",
+                "flight details from Bengaluru to guwahati",
+                "Check flights Bangalore to Guwahati",
+				"How can I fly to Tokyo from Mumbai?",
+				"Show me flight options for London from Delhi"
+			],
+			"responses": [
+				"Let me check for some flight options for you:"
+			]
+		},
+		{
+			"tag": "find_flights",
+			"patterns": [
+				"Find flights to Paris from New York",
+                "delhi to guwahati flights",
+                "flight details from Bengaluru to guwahati",
+                "Check flights Bangalore to Guwahati",
+				"How can I fly to Tokyo from Mumbai?",
+				"Show me flight options for London from Delhi",
+
+                "Find flights from Paris to New York on 2025-12-01",
+                "Show me flights from Bangalore to Guwahati on 2025-11-25",
+                "flight details from Bengaluru to guwahati on 2025-10-30"
+			],
+			"responses": [
+				"Let me check for some flight options for you:"
+			]
+		},
+        {
+			"tag": "get_directions",
+			"patterns": [
+				"How do I get from the Eiffel Tower to the Louvre?",
+                "Give me directions from A to B",
+				"Give me the route from Times Square to Central Park",
+				"Show me a map from Baga Beach to Panjim"
+			],
+			"responses": [
+				"Here are the directions for your route:"
+			]
+		},
+		{
+            "tag": "plan_trip_with_flights",
+            "patterns": [
+                "Plan a full trip to Paris from New York on 2025-05-01 for 5 days",
+                "I need flights and a 3 day itinerary from Delhi to Guwahati on 2025-12-10",
+                "Book a trip from Mumbai to Goa on 2025-11-20 for 4 days with flight details",
+                "Show me flights and plan my trip from Bangalore to London on 2025-10-10 for 7 days",
+                "Complete travel plan from Tokyo to Kyoto on 2025-09-01 for 3 days including flights"
+            ],
+            "responses": [
+                "I'm on it! Generating your complete travel plan (Flights + Itinerary)..."
+            ]
+        }
+	]
+}
+
